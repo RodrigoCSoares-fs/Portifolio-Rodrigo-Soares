@@ -24,7 +24,7 @@ const Repository = () => {
       {repos.map((repo) => (
         <div key={repo.id} id="items-repository">
           <div className="item">
-            <a className="link" href={repo.html_url}>
+            <a className="link" href={repo.html_url} target="_blank">
               {repo.name}
             </a>
           </div>
